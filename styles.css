@@ -1,0 +1,93 @@
+* {
+    outline: none;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  background-color: rgb(230, 236, 240);
+  font-weight: 500;
+}
+
+.btn {
+  color: rgb(20, 129, 195);
+  border: 1px solid rgb(20, 129, 195);
+  border-radius: 100px;
+  box-shadow: none;
+}
+.btn:hover {
+  color: rgb(175, 52, 175);
+}
+
+.header {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  top: 0;
+}
+.header h2 {
+  color: rgb(20, 129, 195);
+  margin: 0.373333rem 0 0.424rem 0;
+}
+.sb-text-purple {
+  color: rgb(175, 52, 175) !important;
+}
+
+.card {
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card .card-content .article-title {
+  margin-bottom: 0 !important;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: normal;
+}
+.card .card-content .article-date {
+  font-size: small;
+  font-weight: lighter;
+}
+.card .card-content .article-content {
+  margin-top: 8px;
+}
+.card .card-content .article-content p {
+  margin: 8px 0;
+}
+
+.card .card-content .material-placeholder ~ span {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: lighter;
+}
+
+footer {
+  font-size: .875em;
+  margin-top: 3em;
+  color: rgb(90, 90, 90);
+}
+footer a {
+    color: rgb(20, 129, 195);
+    text-decoration: none;
+}
+footer p {
+    margin-bottom: 0.25em;
+}
+
+#donate-modal h4, h6 {
+  color: rgb(175, 52, 175);
+}
+#donate-modal ul {
+  padding-left: 1.5em;
+  list-style-type: none;
+}
+#donate-modal ul > li {
+  padding-bottom: 1em;
+  text-indent: -0.9em;
+}
+#donate-modal ul > li:last-child {
+  padding: 0;
+}
+#donate-modal ul > li i.material-icons {
+  font-size: 16px;
+  padding-right: 0.3em;
+}

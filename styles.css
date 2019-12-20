@@ -51,13 +51,19 @@ body {
   margin-top: 8px;
 }
 .card .card-content .article-content p {
-  margin: 8px 0;
+  margin: 2em 0;
 }
 
 .card .card-content .material-placeholder ~ span {
   display: block;
   margin-bottom: 8px;
   font-weight: lighter;
+}
+
+.card .card-content .article-content .section-title {
+  display: block;
+  margin-top: 1rem;
+  font-size: large;
 }
 
 footer {
